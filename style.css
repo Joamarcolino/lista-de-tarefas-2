@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, white,black ,white );
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+section{
+    min-height: 10vh;
+    color: black;
+    text-align: center;
+    border: linen;
+    background-size: 0;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+h1{
+    border-radius:100px;
+    color: white;
+}
+button{
+    position: absolute;
+    right: 60vh;
+    width:100px ;
+    height: 15vh;
+    border-radius: 100px;
+    background-color: red;
+    border: 1px solid grey;
+}
+input{
+    border-radius: 100px;
+    right: 0;
+    top: 40vh ;
+}
+ul{
+    border-radius: 50px;
+}
+li{
+    color: lime;
+}
