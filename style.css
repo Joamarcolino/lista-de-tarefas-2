@@ -2,13 +2,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     background: linear-gradient(90deg, white,black ,white );
     display: grid;
     place-items: center;
     min-height: 100vh;
-
+    
 }
+
 section{
     min-height: 10vh;
     color: black;
@@ -17,23 +19,32 @@ section{
     background-size: 0;
     width: 400px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 100px;
     font-size: 30px;
-
+    background-color: grey;
+    box-shadow: 0px 10px 30px;
 }
+
 h1{
     border-radius:100px;
     color: white;
 }
+
 button{
     position: absolute;
     right: 60vh;
     width:100px ;
     height: 15vh;
     border-radius: 100px;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     border: 1px solid grey;
 }
+
+button:hover{
+    background-color: rgb(199,3,3 );
+
+}
+
 input{
     border-radius: 100px;
     right: 0;
@@ -43,5 +54,6 @@ ul{
     border-radius: 50px;
 }
 li{
-    color: lime;
+    color: greenyellow;
+    background-color: grey;
 }

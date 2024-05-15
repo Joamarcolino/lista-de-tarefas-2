@@ -2,45 +2,17 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Logic.js">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tentativa 2</title>
 </head>
 <body>
-<section>
+   <section>
+</body>
  
     <h1> Lista de Tarefas</h1>
     <input type="text">
     <button onclick="add()">Adicionar</button>  
     <ul> </ul> 
-
-<script>
-    const tarefas = ['Estudar HTML','Estudar CSS',' Estudar JV']
-
-    function add() {
-    const input = document.querySelector("input")
-    const tarefa = input.value 
-    tarefas.push(tarefa)
-    input.value = ""
-    refresh()
-
-   
-}
-function refresh(){
-    const ul = document.querySelector("ul")
-    ul.innerHTML = null
-    
-    tarefas.forEach(function(tarefa) {
-        const li = document.createElement("li")
-        li.innerText = tarefa
-        ul.appendChild(li)
-    })
-   
-   
-    input.value = ""
-
-}
-</script>
-</body>
+    <script src="./Lógica.js"></script>
 </html>
