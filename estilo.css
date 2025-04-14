@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    font-family: comic sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: 3s ease-in-out;
+    border-radius: 0px;
+    font-weight:lighter 100;
+    overflow-y: scroll;
+    max-height: 160px;
+    list-style: none;
+    max-width: 500px;
+    overflow-x: scroll;
+}
+ul:hover{
+    border: 1px;
+    padding: 120px;
+    padding-top: 20px;
+    transition:1s ease;
+    display:flex;
+    font-style: none;
+    border-top: 1px;
+}
+li{
+    transition: 3s;
+    padding: 3px;
+    font-style:italic;
+    position: auto;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+li:active{
+    color:rgb(207, 190, 112)
+}
+li:hover{
+    color: rgb(250, 230, 141);
+    text-shadow: 1px 1px 10px;
+    scale:calc(1.3);
+    font-family: none;
+    text-decoration: none;
+
+}
+.conteudo{
+    display: flex;
+    padding-top: 20px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 11px;
+}
+input{
+    background-color: white;
+    padding: 3px;
+    width:100%;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+}
+
+button{
+    background-color: rgb(255, 0, 76);
+    color: aliceblue;
+    width: 50px;
+    padding: 3px;
+    border-radius: 100px;
+    transition: 0.5s ease;
+    border: none;
+}
+h1{
+    align-self: center;
+    transition:1s;
+    font-size: 30px;
+    font-weight: 100;
+    cursor: not-allowed;
+}
+#inputebutton{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+
+}
+button:hover{
+    text-shadow: 1px 1px 10px;
+    
+}
+button:active{
+    border: solid rgb(192, 20, 58);
+    border-radius: 0px;
+    background-color: rgb(192, 0, 58);
+    transition:none ;
+    border-color: var(--glow-spread-color 1px 1px 10px);
+    
+}
+ul::-webkit-scrollbar {
+    width: 8px;
+}
+ul::-webkit-scrollbar:hover{
+    border: 1px solid gold;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: rgb(209, 206, 206);
+    border-radius: 4px;
+    transition: 1s
+}
+
+ul::-webkit-scrollbar-thumb:active{
+    background-color: grey
+}
